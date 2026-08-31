@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/dorothy-m-richardson/the-trap</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-08-31T21:31:29Z</dc:date>
+		<meta property="dcterms:modified">2026-08-31T21:31:29Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -46,14 +46,14 @@
 		<meta property="schema:abstract">At the start of the 20th century an independent woman and budding writer takes an apartment with a spinster night-school teacher.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Trap&lt;/i&gt; is the eighth “chapter volume” of &lt;a href="https://standardebooks.org/ebooks/dorothy-m-richardson"&gt;Dorothy M. Richardson’s&lt;/a&gt; pioneering semi-autobiographical series, &lt;a href="https://standardebooks.org/collections/pilgrimage"&gt;Pilgrimage&lt;/a&gt;.&lt;/p&gt;
-			&lt;p&gt;Series protagonist Miriam Henderson impulsively takes a flat in Flaxman Court with the very prim Selina Holland. Miriam struggles to introduce a disapproving Miss Holland to her bohemian London. Their apartment is across the way from that of a famous poet, E. W. Sayce—Miss Holland is not impressed. (In succeeding editions of this book Sayce is instead identified by Richardson as &lt;a href="https://standardebooks.org/ebooks/w-b-yeats"&gt;William Butler Yeats&lt;/a&gt;.)&lt;/p&gt;
+			&lt;p&gt;Series protagonist Miriam Henderson impulsively takes a flat in Flaxman Court with the very prim Selina Holland. Miriam struggles to introduce a disapproving Miss Holland to her bohemian London. Their apartment is across the way from that of a famous poet, E. W. Sayce—and Miss Holland is not impressed. (In later editions, Sayce is instead identified by Richardson as &lt;a href="https://standardebooks.org/ebooks/w-b-yeats"&gt;W. B. Yeats&lt;/a&gt;.)&lt;/p&gt;
 			&lt;p&gt;As is typical in the Pilgrimage volumes, this is a story in which nothing much “happens”—Richardson herself dismissed the notion of plot as “lollipops for children”—but which paints a vivid and intimate portrait of a young writer’s mind, and brings to life the world that shaped her.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/64585</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/007926262</dc:source>
-		<meta property="schema:wordCount">WORD_COUNT</meta>
-		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<meta property="schema:wordCount">37168</meta>
+		<meta property="schema:educationalLevel">74.49</meta>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/dorothy-m-richardson_the-trap" refines="#vcs-repository" rel="schema:codeRepository"/>
@@ -88,6 +88,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#producer-2" rel="schema:url"/>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
